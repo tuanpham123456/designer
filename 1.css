@@ -112,10 +112,38 @@
     background: #41C1AA;
 
 }
-.sell >.btn:not(:disabled):not(.disabled) {
-    /* cursor: pointer; */
+.sell button {
+    background: #662C91;
+    color: white;
 }
+.travel button {
+    background: #14B5B3;
+    color: white;
 
+}
+.book button{
+    background: #FE9275;
+    color: white;
+
+}
+.ref button{
+    background: #384E9F;
+    color: white;
+}
+.sell1 button {
+    background: #118DF0;
+    color: white;
+}
+.travel1 button {
+    background: #662C91;
+    color: white;
+    text-align: justify;
+}
+.book1 button{
+    background: #14B5B3;
+    color: white;
+
+}
 
 .dropdown-menu {
     position: absolute;
