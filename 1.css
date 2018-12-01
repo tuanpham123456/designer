@@ -8,9 +8,20 @@
 
 }
 .menu1{
-    background:white;
+    position: relative;
+    height: 70px;
+    overflow: hidden;
+/*    background:white;
     width: 100%;
     height: 5.375em;
+    position: relative;*/
+}
+
+.cf{
+    padding: 20px 25px;
+    border-top: 1px solid red;
+    background: #fff;
+
 }
 .menu   {
     color: #2ac5b3;
@@ -26,6 +37,34 @@
     border: 1px solid #2ac5b3;
     margin-top: 20px;
 
+}
+.view-demo{
+    color: #fff;
+    background: #7fc142;
+    margin-bottom: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 60px;
+}
+.top{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+    color: #525252;
+
+}
+.review{
+    text-align: center;
+    color: #525252;
+
+}
+hr {
+    width: 5%;
+    margin-top: 20px;
+    height: 3px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #1ca4dd;
 }
 .font a{
     font-size: 15px;
@@ -172,14 +211,8 @@
     margin-top: 25px;
 }
 
-/*@media max-width: 1400px{
-    .home_ban{
-        font-size: 2em;
-        font-weight: 400;
-        color: #fff;
-        text-align: center;
-        margin: 0 0 .4em;
-        margin-top: -50px;
-
-    }   
-}*/
+.image-menu1 img{
+    margin-top: 30px;
+    width: 260px;
+    height: 339px;
+}
