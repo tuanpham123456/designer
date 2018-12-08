@@ -17,12 +17,7 @@
     position: relative;*/
 }
 
-.cf{
-    padding: 20px 25px;
-    border-top: 1px solid red;
-    background: #fff;
 
-}
 .menu   {
     color: #2ac5b3;
     text-decoration: none;
@@ -38,17 +33,17 @@
     margin-top: 20px;
 
 }
-.view-demo{
+/*.view-demo{
     color: #fff;
     background: #7fc142;
     margin-bottom: 15px;
     text-decoration: none;
     border-radius: 5px;
     width: 60px;
-}
+}*/
 .top{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 36px;
     color: #525252;
 
@@ -90,7 +85,7 @@ hr {
     color: #fff;
     text-align: center;
     margin: 0 0 .4em;
-    margin-top: 28px;
+    margin-top: 120px;
 
 }
 .menu2 p {
@@ -130,6 +125,7 @@ hr {
     text-decoration: none;
     display: block;
     margin-top: 13px;
+
 }
 .start a{
     text-decoration: none;
@@ -215,4 +211,16 @@ hr {
     margin-top: 30px;
     width: 260px;
     height: 339px;
+}
+#myTable{
+    height: 100%;
+    position: relative;
+
+}
+#myTable .cf{
+    padding: 20px 25px;
+    border-top: 1px solid red;
+    background: #fff;
+    position: absolute;
+
 }
